@@ -103,7 +103,7 @@ const projects = [
 
 const badminton = [
   { achievement: 'County Level Player', detail: 'Representing Nottinghamshire in competitive county badminton fixtures', icon: '🏆' },
-  { achievement: 'Byron Badminton Club', detail: 'Active member playing in Nottinghamshire 1st Division league matches', icon: '🏸' },
+  { achievement: '4-Nations Graded Internation', detail: 'Represented England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 and placed 2nd in Individuals', icon: '🏸' },
   { achievement: 'National Ranking', detail: 'Registered with Badminton England (BE No. 1381998)', icon: '🎯' },
   { achievement: 'London League', detail: 'Represented clubs in London competitive league fixtures', icon: '🌆' },
 ]
@@ -165,7 +165,7 @@ function Navbar() {
 function Hero() {
   const [text, setText] = useState('')
   const [phase, setPhase] = useState(0)
-  const phrases = ['IT Support Analyst', 'Cybersecurity Analyst', 'SOC Analyst', 'GRC Specialist']
+  const phrases = ['IT Support Analyst', 'Cybersecurity Analyst', 'SOC Analyst']
 
   useEffect(() => {
     let timeout
@@ -240,7 +240,7 @@ function Hero() {
             </div>
 
             <div className="flex flex-wrap gap-4 mt-8">
-              {['MSc IT Security', 'NTU Graduate', 'Nottingham, UK', 'Right to Work'].map(tag => (
+              {['MSc IT Security', 'NTU Graduate', 'Nottingham, UK'].map(tag => (
                 <span key={tag} className="text-xs font-mono text-slate-500 bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700/50">
                   {tag}
                 </span>
