@@ -40,7 +40,7 @@ const experience = [
   {
     title: 'Web Design Professional',
     company: 'SENsible SENCO CIC',
-    period: 'Jun 2020 – Jul 2022',
+    period: 'Sep 2025 – Dec 2025',
     location: 'Nottingham, UK',
     type: 'Contract',
     bullets: [
@@ -64,6 +64,52 @@ const experience = [
     ]
   },
 ]
+
+function Education() {
+  return (
+    <section id="education" className="py-24 relative">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="font-display text-3xl font-bold text-white mb-16 flex items-center gap-3">
+          <span className="text-cyan-400 font-mono text-xl">04.</span>
+          Education
+          <div className="flex-1 h-px bg-gradient-to-r from-cyan-500/20 to-transparent ml-4" />
+        </h2>
+        <div className="space-y-6">
+          <div className="glass glass-hover rounded-xl p-6 lg:p-8">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-3">
+              <div>
+                <h3 className="font-display text-lg font-semibold text-white">MSc IT Security</h3>
+                <p className="text-cyan-400 text-sm mt-1">Nottingham Trent University &bull; Nottingham, UK</p>
+              </div>
+              <span className="text-xs font-mono text-slate-500 whitespace-nowrap">2022 – 2024</span>
+            </div>
+            <p className="text-slate-400 text-sm leading-relaxed mb-4">Covered network security, cybersecurity operations, information security management, risk assessment, and digital forensics. Dissertation focused on phishing education through serious games, researching how game design principles can be applied to cybersecurity awareness training.</p>
+            <div className="flex flex-wrap gap-2">
+              {['Network Security', 'SIEM & SOC', 'Risk Management', 'ISMS Design', 'Cyber Forensics', 'Python'].map(t => (
+                <span key={t} className="text-xs font-mono text-slate-500 bg-slate-800/60 px-2 py-1 rounded border border-slate-700/50">{t}</span>
+              ))}
+            </div>
+          </div>
+          <div className="glass glass-hover rounded-xl p-6 lg:p-8">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-3">
+              <div>
+                <h3 className="font-display text-lg font-semibold text-white">BSc Computer Science</h3>
+                <p className="text-cyan-400 text-sm mt-1">Sri Krishna Arts and Science College &bull; Pollachi, India</p>
+              </div>
+              <span className="text-xs font-mono text-slate-500 whitespace-nowrap">2019 – 2022</span>
+            </div>
+            <p className="text-slate-400 text-sm leading-relaxed mb-4">Foundation in computer science principles, programming, databases, and software engineering. Final project focused on Bitcoin price prediction and analysis using VB.NET and SQL.</p>
+            <div className="flex flex-wrap gap-2">
+              {['Java', 'C/C++', 'SQL', 'Data Structures', 'Web Development', 'VB.NET'].map(t => (
+                <span key={t} className="text-xs font-mono text-slate-500 bg-slate-800/60 px-2 py-1 rounded border border-slate-700/50">{t}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
 
 const certifications = [
   { name: 'Microsoft Azure Fundamentals AZ-900', status: 'In Preparation', icon: '☁️', color: 'blue' },
@@ -120,7 +166,7 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const links = ['About', 'Skills', 'Experience', 'Certifications', 'Projects', 'Badminton', 'Contact']
+  const links = ['About', 'Skills', 'Experience', 'Education', 'Certifications', 'Projects', 'Badminton', 'Contact']
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'py-3 bg-[#020817]/90 backdrop-blur-xl border-b border-cyan-500/10' : 'py-5'}`}>
@@ -584,6 +630,7 @@ export default function Home() {
           <Skills />
           <Experience />
           <Certifications />
+    <Education />
           <Projects />
           <Badminton />
           <Contact />
