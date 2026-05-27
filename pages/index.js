@@ -136,7 +136,7 @@ function Navbar() {
             </a>
           ))}
         </div>
-        <a href="/cv.pdf" download
+        <a href="https://drive.google.com/uc?export=download&id=1Ik_NxEKu6MAITptV-DtFBFMGgLYPxFra" download
           className="hidden md:block text-xs font-mono px-4 py-2 border border-cyan-500/30 text-cyan-400 rounded hover:bg-cyan-500/10 transition-all duration-200 hover:border-cyan-400">
           Download CV
         </a>
