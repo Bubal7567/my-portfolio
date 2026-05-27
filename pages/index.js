@@ -18,24 +18,49 @@ const experience = [
     location: 'Nottingham, UK',
     type: 'Enterprise',
     bullets: [
-      'Resolved 30+ IT incidents daily via phone, email, and ticketing — maintaining 95%+ SLA compliance',
-      'Administered Active Directory and Microsoft 365 accounts with full user lifecycle management',
-      'Delivered remote desktop support via RDP, reducing on-site attendance requirements',
-      'Identified incident trends and created knowledge base articles to reduce repeat tickets',
-      'Supported onboarding processes including secure device setup and access provisioning',
+      'I deployed, configured, maintained, and decommissioned a wide range of end user devices including desktop PCs, laptops, tablets, and peripherals using structured lifecycle management processes, ensuring accurate asset records were maintained from procurement through to secure disposal.',
+      'I diagnosed and resolved second line incidents across Windows 10 and 11, Microsoft 365, Outlook, Active Directory, VPN, and network connectivity, keeping clear case records in Zendesk and Microsoft Dynamics throughout, and using RDP to support remote users without on-site delays.',
+      'I maintained audio visual equipment across teaching spaces and meeting rooms, including classroom projectors, interactive whiteboards, Microsoft Teams Rooms, and Zoom Rooms, carrying out regular checks and resolving faults quickly before sessions started to avoid disruption to academic activity.',
+      'I administered Active Directory and Microsoft 365 accounts for staff and students, handling user provisioning, password resets, access control, and onboarding, while documenting recurring incident resolutions in the knowledge base to help the whole team resolve similar faults faster.',
+      'I consistently achieved 95 percent or above SLA compliance across 30 plus incidents daily by prioritising workloads effectively, escalating complex issues with clear handover notes, and keeping users informed at every stage of the resolution process in line with ITIL good practice.',
     ]
   },
   {
-    title: 'IT Support Analyst',
+    title: 'IT Support Technician',
     company: 'Mani Maligai Supermarket',
     period: 'Jun 2020 – Jul 2022',
     location: 'Pollachi, India',
     type: 'Operational',
     bullets: [
-      'Provided independent IT support to 20-30 staff across a live retail environment',
-      'Maintained POS/till systems, barcode scanners, receipt printers, and CCTV-connected networks',
-      'Diagnosed and resolved Windows-based faults and peripheral issues under operational pressure',
-      'Managed user accounts and access support, coordinating with vendors on complex issues',
+      'I provided independent IT support to 20 to 30 staff users in a live retail environment, installing and maintaining desktop computers, POS systems, barcode scanners, receipt printers, and Wi-Fi routers, and diagnosing Windows-based software faults and peripheral issues using structured troubleshooting.',
+      'I managed user account administration and access control, coordinated with external vendors on complex escalations, and maintained accurate records of all faults and resolutions to support continuity and identify recurring issues across IT systems.',
+      'I configured and maintained networked devices including routers and CCTV-connected systems, ensuring reliable connectivity across the site and resolving network faults with minimal disruption to daily operations.',
+    ]
+  },
+  {
+    title: 'Web Design Professional',
+    company: 'SENsible SENCO CIC',
+    period: 'Jun 2020 – Jul 2022',
+    location: 'Nottingham, UK',
+    type: 'Contract',
+    bullets: [
+      'Progressed into a contracted role after delivering measurable improvements during my internship, accomplishing a 30% improvement in user navigation and engagement by redesigning the site architecture using WordPress, HTML5, and CSS3.',
+      'Delivered 20+ responsive web pages by translating stakeholder requirements into wireframes, UI mock-ups, and front-end implementations aligned with accessibility and usability standards.',
+      'Improved website accessibility by conducting structured WCAG audits using WAVE, testing across devices, and implementing front-end fixes to enhance usability and compliance.',
+      'Increased search visibility by optimising SEO metadata, sitemap structure, and internal linking, and enhanced functionality through WordPress theme and plugin customisation using basic PHP.',
+    ]
+  },
+  {
+    title: 'Digital Content & UX Coordinator (Intern)',
+    company: 'SENsible SENCO CIC',
+    period: 'Aug 2025 – Sep 2025',
+    location: 'Nottingham, UK',
+    type: 'Internship',
+    bullets: [
+      'Supported the redevelopment and structural enhancement of the organisation\'s website, redesigning layouts and producing wireframes and prototypes based on user-centred design principles and stakeholder requirements.',
+      'Increased cross-device compatibility and accessibility compliance by implementing responsive design improvements using HTML5 and CSS3 within WordPress environments.',
+      'Delivered visually consistent UI components and branded layouts by creating mock-ups in Adobe Photoshop and translating concepts into functional web content.',
+      'Strengthened SEO and website crawlability by updating metadata, internal linking, and sitemap structures to support technical optimisation.',
     ]
   },
 ]
