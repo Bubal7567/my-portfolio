@@ -257,7 +257,7 @@ function Hero() {
       <img
         src="https://drive.google.com/thumbnail?id=1PB7qrSq9OZcmHL_NUYV3V1LJuOR0t3-y&sz=w400"
         alt="Boobalan Selvakumar"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover object-top"
       />
     </div>
     <div className="absolute inset-0 rounded-full border border-dashed border-cyan-500/20 animate-spin" style={{animationDuration:'12s', margin:'-6px'}} />
