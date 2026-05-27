@@ -248,8 +248,24 @@ function Hero() {
             </div>
           </div>
 
-          {/* Terminal card */}
-          <div className="glass rounded-2xl p-6 border border-cyan-500/10 animate-float">
+          {/* Profile image + Terminal card */}
+<div className="flex flex-col items-center gap-6">
+
+  {/* Profile photo */}
+  <div className="relative">
+    <div className="w-36 h-36 rounded-full border-2 border-cyan-500/40 overflow-hidden" style={{boxShadow:'0 0 30px rgba(0,212,255,0.2)'}}>
+      <img
+        src="https://drive.google.com/thumbnail?id=1PB7qrSq9OZcmHL_NUYV3V1LJuOR0t3-y&sz=w400"
+        alt="Boobalan Selvakumar"
+        className="w-full h-full object-cover"
+      />
+    </div>
+    <div className="absolute inset-0 rounded-full border border-dashed border-cyan-500/20 animate-spin" style={{animationDuration:'12s', margin:'-6px'}} />
+    <div className="absolute bottom-2 right-2 w-4 h-4 rounded-full bg-green-400 border-2 border-[#020817]" />
+  </div>
+
+  {/* Terminal card */}
+  <div className="glass rounded-2xl p-6 border border-cyan-500/10 animate-float w-full">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-3 h-3 rounded-full bg-red-500/70" />
               <div className="w-3 h-3 rounded-full bg-yellow-500/70" />
@@ -273,6 +289,7 @@ function Hero() {
           </div>
         </div>
       </div>
+    </div>
     </section>
   )
 }
